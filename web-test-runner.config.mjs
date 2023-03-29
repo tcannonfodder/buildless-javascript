@@ -18,6 +18,11 @@ let importmaps = await writeImportMapFiles({
 
 
 export default {
+  testFramework: {
+    config: {
+      ui: 'tdd',
+    },
+  },
   plugins: [
     importMapsPlugin({
       inject: {
